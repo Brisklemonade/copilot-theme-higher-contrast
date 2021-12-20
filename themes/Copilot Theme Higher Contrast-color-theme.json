@@ -122,7 +122,12 @@
     },
     {
       "name": "Operators",
-      "scope": ["keyword.operator", "punctuation.separator.key-value.svelte"],
+      "scope": [
+        "keyword.operator",
+        "punctuation.separator.key-value.svelte",
+        "punctuation.definition.template-expression.begin.ts",
+        "punctuation.definition.template-expression.end.ts"
+      ],
       "settings": {
         "foreground": "#fff"
       }
@@ -348,8 +353,8 @@
       }
     },
     {
-      "name": "meta.arrow.ts",
-      "scope": ["meta.arrow.ts"],
+      "name": "meta.operators.ts",
+      "scope": ["meta.arrow.ts", "punctuation.separator.key-value.ts"],
       "settings": {
         "foreground": "#939DA5"
       }
@@ -367,7 +372,7 @@
     },
     {
       "name": "Attributes",
-      "scope": ["entity.other.attribute-name"],
+      "scope": ["entity.other.attribute-name", "meta.object-literal.key.ts"],
       "settings": {
         "foreground": "#ffa763"
       }
