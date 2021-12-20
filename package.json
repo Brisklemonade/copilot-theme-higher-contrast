@@ -1,0 +1,35 @@
+{
+  "name": "copilot-theme-higher-contrast",
+  "displayName": "Copilot Theme Higher Contrast",
+  "description": "Benjamin Benais copilot theme, but with higher contrast.",
+  "version": "0.0.1",
+  "publisher": "UxTitan",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Brisklemonade/copilot-theme-higher-contrast"
+  },
+  "keywords": [
+    "theme",
+    "dark theme",
+    "uxtitan",
+    "github copilot",
+    "github",
+    "copilot",
+    "high contrast"
+  ],
+  "engines": {
+    "vscode": "^1.63.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Copilot Theme Higher Contrast",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Copilot Theme Higher Contrast-color-theme.json"
+      }
+    ]
+  }
+}
